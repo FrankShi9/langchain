@@ -190,7 +190,7 @@ class FewShotPromptTemplate(_FewShotPromptTemplateMixin, StringPromptTemplate):
             self.example_prompt.format(**example) for example in examples
         ]
         # Create the overall template.
-        pieces = [self.prefix, *example_strings, self.suffix]
+        pieces = [self.prefix, "Let's think step by step!", *example_strings, self.suffix]
         template = self.example_separator.join([piece for piece in pieces if piece])
 
         # Format the template with the input variables.
