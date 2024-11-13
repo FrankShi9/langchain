@@ -1,4 +1,4 @@
-# 🦜️🔗 LangChain
+# 🦜️🔗 LangChain (exp dev)
 
 ⚡ Build context-aware reasoning applications ⚡
 
